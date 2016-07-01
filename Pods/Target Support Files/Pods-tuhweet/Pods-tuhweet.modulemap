@@ -1,0 +1,6 @@
+framework module Pods_tuhweet {
+  umbrella header "Pods-tuhweet-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		381D3DCE1D232BEC008D528A /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D3DCD1D232BEC008D528A /* ComposeViewController.swift */; };
+		3868877F1D218E2C0036B1A2 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3868877E1D218E2C0036B1A2 /* TweetCell.swift */; };
+		386887811D21E8A80036B1A2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386887801D21E8A80036B1A2 /* ProfileViewController.swift */; };
+		386887831D21E9640036B1A2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386887821D21E9640036B1A2 /* DetailViewController.swift */; };
 		3889CB891D1F869A00D0A063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3889CB881D1F869A00D0A063 /* AppDelegate.swift */; };
 		3889CB8B1D1F869A00D0A063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3889CB8A1D1F869A00D0A063 /* ViewController.swift */; };
 		3889CB8E1D1F869A00D0A063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3889CB8C1D1F869A00D0A063 /* Main.storyboard */; };
 		3889CB901D1F869A00D0A063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3889CB8F1D1F869A00D0A063 /* Assets.xcassets */; };
 		3889CB931D1F869A00D0A063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3889CB911D1F869A00D0A063 /* LaunchScreen.storyboard */; };
+		38F14D191D244ADC0084F1FB /* FlickToDismissViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F14D181D244ADC0084F1FB /* FlickToDismissViewController.swift */; };
+		38F605421D1F880100DCA550 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F605411D1F880100DCA550 /* LoginViewController.swift */; };
+		38F605461D20BE7100DCA550 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F605451D20BE7100DCA550 /* User.swift */; };
+		38F605481D20BE7C00DCA550 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F605471D20BE7C00DCA550 /* Tweet.swift */; };
+		38F6054B1D20C4F800DCA550 /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6054A1D20C4F800DCA550 /* TwitterClient.swift */; };
+		38F6054D1D20D52A00DCA550 /* TweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F6054C1D20D52A00DCA550 /* TweetsViewController.swift */; };
+		4EA655DE2E2BA1AB2DB5BDFC /* Pods_tuhweet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E2D64ECD70402C0710AE54 /* Pods_tuhweet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		381D3DCD1D232BEC008D528A /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		3868877E1D218E2C0036B1A2 /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		386887801D21E8A80036B1A2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		386887821D21E9640036B1A2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3889CB851D1F869A00D0A063 /* tuhweet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tuhweet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3889CB881D1F869A00D0A063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3889CB8A1D1F869A00D0A063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,15 @@
 		3889CB8F1D1F869A00D0A063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3889CB921D1F869A00D0A063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3889CB941D1F869A00D0A063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38F14D181D244ADC0084F1FB /* FlickToDismissViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickToDismissViewController.swift; sourceTree = "<group>"; };
+		38F605411D1F880100DCA550 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		38F605451D20BE7100DCA550 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		38F605471D20BE7C00DCA550 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		38F6054A1D20C4F800DCA550 /* TwitterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
+		38F6054C1D20D52A00DCA550 /* TweetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsViewController.swift; sourceTree = "<group>"; };
+		BF26650B2EFD981B15326A95 /* Pods-tuhweet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuhweet.release.xcconfig"; path = "Pods/Target Support Files/Pods-tuhweet/Pods-tuhweet.release.xcconfig"; sourceTree = "<group>"; };
+		CEFBD1446AFCFD9C1EA6B86A /* Pods-tuhweet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuhweet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tuhweet/Pods-tuhweet.debug.xcconfig"; sourceTree = "<group>"; };
+		E4E2D64ECD70402C0710AE54 /* Pods_tuhweet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tuhweet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA655DE2E2BA1AB2DB5BDFC /* Pods_tuhweet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				3889CB871D1F869A00D0A063 /* tuhweet */,
 				3889CB861D1F869A00D0A063 /* Products */,
+				3BD16075B70E2B3AA239AD0D /* Pods */,
+				DEA0BC93CFE55D508BCC5FAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,65 @@
 		3889CB871D1F869A00D0A063 /* tuhweet */ = {
 			isa = PBXGroup;
 			children = (
+				38F605491D20C4D500DCA550 /* API */,
+				38F605441D20BE4B00DCA550 /* View Controllers */,
+				38F605431D20BE4400DCA550 /* Models */,
 				3889CB881D1F869A00D0A063 /* AppDelegate.swift */,
-				3889CB8A1D1F869A00D0A063 /* ViewController.swift */,
 				3889CB8C1D1F869A00D0A063 /* Main.storyboard */,
 				3889CB8F1D1F869A00D0A063 /* Assets.xcassets */,
 				3889CB911D1F869A00D0A063 /* LaunchScreen.storyboard */,
 				3889CB941D1F869A00D0A063 /* Info.plist */,
 			);
 			path = tuhweet;
+			sourceTree = "<group>";
+		};
+		38F605431D20BE4400DCA550 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				38F605451D20BE7100DCA550 /* User.swift */,
+				38F605471D20BE7C00DCA550 /* Tweet.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		38F605441D20BE4B00DCA550 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3889CB8A1D1F869A00D0A063 /* ViewController.swift */,
+				38F605411D1F880100DCA550 /* LoginViewController.swift */,
+				38F6054C1D20D52A00DCA550 /* TweetsViewController.swift */,
+				3868877E1D218E2C0036B1A2 /* TweetCell.swift */,
+				386887801D21E8A80036B1A2 /* ProfileViewController.swift */,
+				386887821D21E9640036B1A2 /* DetailViewController.swift */,
+				381D3DCD1D232BEC008D528A /* ComposeViewController.swift */,
+				38F14D181D244ADC0084F1FB /* FlickToDismissViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		38F605491D20C4D500DCA550 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				38F6054A1D20C4F800DCA550 /* TwitterClient.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		3BD16075B70E2B3AA239AD0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEFBD1446AFCFD9C1EA6B86A /* Pods-tuhweet.debug.xcconfig */,
+				BF26650B2EFD981B15326A95 /* Pods-tuhweet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEA0BC93CFE55D508BCC5FAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4E2D64ECD70402C0710AE54 /* Pods_tuhweet.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3889CB971D1F869A00D0A063 /* Build configuration list for PBXNativeTarget "tuhweet" */;
 			buildPhases = (
+				2A84D90BE09E5C001A0177DA /* [CP] Check Pods Manifest.lock */,
 				3889CB811D1F869A00D0A063 /* Sources */,
 				3889CB821D1F869A00D0A063 /* Frameworks */,
 				3889CB831D1F869A00D0A063 /* Resources */,
+				E414BFE33752318D764EB3D2 /* [CP] Embed Pods Frameworks */,
+				85A050F42016EDCCCE567231 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +177,7 @@
 				TargetAttributes = {
 					3889CB841D1F869A00D0A063 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W8LZ29733G;
 					};
 				};
 			};
@@ -130,12 +212,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A84D90BE09E5C001A0177DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85A050F42016EDCCCE567231 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tuhweet/Pods-tuhweet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E414BFE33752318D764EB3D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tuhweet/Pods-tuhweet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3889CB811D1F869A00D0A063 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F14D191D244ADC0084F1FB /* FlickToDismissViewController.swift in Sources */,
+				38F605461D20BE7100DCA550 /* User.swift in Sources */,
+				38F605481D20BE7C00DCA550 /* Tweet.swift in Sources */,
+				38F605421D1F880100DCA550 /* LoginViewController.swift in Sources */,
+				3868877F1D218E2C0036B1A2 /* TweetCell.swift in Sources */,
 				3889CB8B1D1F869A00D0A063 /* ViewController.swift in Sources */,
+				38F6054D1D20D52A00DCA550 /* TweetsViewController.swift in Sources */,
+				381D3DCE1D232BEC008D528A /* ComposeViewController.swift in Sources */,
+				386887811D21E8A80036B1A2 /* ProfileViewController.swift in Sources */,
+				386887831D21E9640036B1A2 /* DetailViewController.swift in Sources */,
+				38F6054B1D20C4F800DCA550 /* TwitterClient.swift in Sources */,
 				3889CB891D1F869A00D0A063 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,23 +387,31 @@
 		};
 		3889CB981D1F869A00D0A063 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFBD1446AFCFD9C1EA6B86A /* Pods-tuhweet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tuhweet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dres.tuhweet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		3889CB991D1F869A00D0A063 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF26650B2EFD981B15326A95 /* Pods-tuhweet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tuhweet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dres.tuhweet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +434,7 @@
 				3889CB991D1F869A00D0A063 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
