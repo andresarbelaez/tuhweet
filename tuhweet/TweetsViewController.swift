@@ -162,7 +162,7 @@ class TweetsViewController: UIViewController, UITableViewDataSource, UITableView
             cell.onRetweet(sender)
             return true
         })]
-        cell.rightButtons = [MGSwipeButton(title: "", icon: UIImage(named: "favorite.png"), backgroundColor: redColor, callback: {
+        cell.rightButtons = [MGSwipeButton(title: "", icon: UIImage(named: "reply.png"), backgroundColor: UIColor.whiteColor()), MGSwipeButton(title: "", icon: UIImage(named: "favorite.png"), backgroundColor: redColor, callback: {
             (sender: MGSwipeTableCell!) -> Bool in
             cell.onFavorite(sender)
             return true
